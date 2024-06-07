@@ -1,0 +1,635 @@
+Seuil: 6
+Matrix de confusion
+Class	0	1	2	3
+0	23	49	50	2
+1	6	89	93	0	True label
+2	3	9	94	0
+3	2	11	23	6
+	Predicted label
+
+Resultats
+Class	TP	FP	FN	TN
+0	23	11	101	325
+1	89	69	99	203
+2	94	166	12	188
+3	6	2	36	416
+
+Metric		Average		For each class (0,1,2,3)
+Accuracy:	0.7304		[0.7565, 0.6348, 0.613, 0.9174]
+Precision:	0.5878		[0.6765, 0.5633, 0.3615, 0.75]
+Recall:		0.4222		[0.1855, 0.4734, 0.8868, 0.1429]
+F1Score:	0.3898		[0.2912, 0.5145, 0.5136, 0.2401]
+
+ [Attribute: Attr_B Split value: 9.015163738059242]
+ > Gauche
+ -[Attribute: Attr_I Split value: 8.24190958079081]
+ -> Gauche
+ --[Attribute: Attr_F Split value: 890.6296242161641]
+ --> Gauche
+ ---[Attribute: Attr_C Split value: 912.670489660344]
+ ---> Gauche
+ ----[Attribute: Attr_H Split value: 9.585691023416883]
+ ----> Gauche
+ -----[Attribute: Attr_A Split value: 9.3476999479909]
+ -----> Gauche
+ ------[Attribute: Attr_N Split value: 88.05248602842212]
+ ------> Gauche
+ ------- Class 0 Count: 123
+ ------- Class 1 Count: 57
+ ------- Class 2 Count: 40
+ ------- Class 3 Count: 25
+ -------
+ ------> Droite
+ ------- Class 2 Count: 35
+ ------- Class 3 Count: 25
+ ------- Class 1 Count: 19
+ ------- Class 0 Count: 3
+ -------
+ -----> Droite
+ ------[Attribute: Attr_J Split value: 95.71392861268654]
+ ------> Gauche
+ ------- Class 0 Count: 53
+ ------- Class 1 Count: 23
+ ------- Class 2 Count: 4
+ ------- Class 3 Count: 2
+ -------
+ ------> Droite
+ ------- Class 1 Count: 20
+ ------- Class 0 Count: 4
+ ------- Class 2 Count: 2
+ ------- Class 3 Count: 1
+ -------
+ ----> Droite
+ -----[Attribute: Attr_N Split value: 79.23333641525187]
+ -----> Gauche
+ ------[Attribute: Attr_L Split value: 9.302308855953797]
+ ------> Gauche
+ ------- Class 0 Count: 75
+ ------- Class 2 Count: 4
+ ------- Class 1 Count: 2
+ ------- Class 3 Count: 1
+ -------
+ ------> Droite
+ ------- Class 0 Count: 24
+ ------- Class 2 Count: 3
+ -------
+ -----> Droite
+ ------[Attribute: Attr_J Split value: 78.96333711426685]
+ ------> Gauche
+ ------- Class 3 Count: 16
+ ------- Class 2 Count: 9
+ ------- Class 1 Count: 2
+ -------
+ ------> Droite
+ ------- Class 2 Count: 4
+ ------- Class 3 Count: 4
+ ------- Class 1 Count: 1
+ -------
+ ---> Droite
+ ----[Attribute: Attr_E Split value: 89.41377439028909]
+ ----> Gauche
+ -----[Attribute: Attr_A Split value: 9.108863905278964]
+ -----> Gauche
+ ------[Attribute: Attr_H Split value: 9.024026373392948]
+ ------> Gauche
+ ------- Class 0 Count: 45
+ ------- Class 1 Count: 20
+ ------- Class 3 Count: 14
+ ------- Class 2 Count: 3
+ -------
+ ------> Droite
+ ------- Class 3 Count: 18
+ ------- Class 0 Count: 9
+ -------
+ -----> Droite
+ ------[Attribute: Attr_J Split value: 89.32186274005008]
+ ------> Gauche
+ ------- Class 0 Count: 26
+ ------- Class 1 Count: 1
+ -------
+ ------> Droite
+ ------- Class 1 Count: 6
+ ------- Class 0 Count: 3
+ -------
+ ----> Droite
+ -----[Attribute: Attr_A Split value: 10.59256619254847]
+ -----> Gauche
+ ------[Attribute: Attr_D Split value: 92.68787010463632]
+ ------> Gauche
+ ------- Class 0 Count: 28
+ -------
+ ------> Droite
+ ------- Class 0 Count: 7
+ ------- Class 3 Count: 2
+ -------
+ -----> Droite
+ ------[Attribute: Attr_J Split value: 91.76029606314944]
+ ------> Gauche
+ ------- Class 0 Count: 8
+ ------- Class 2 Count: 1
+ -------
+ ------> Droite
+ ------- Class 0 Count: 3
+ -------
+ --> Droite
+ ---[Attribute: Attr_N Split value: 92.5130065089682]
+ ---> Gauche
+ ----[Attribute: Attr_E Split value: 79.32047954370874]
+ ----> Gauche
+ -----[Attribute: Attr_J Split value: 85.30619418956073]
+ -----> Gauche
+ ------[Attribute: Attr_A Split value: 8.872327470091543]
+ ------> Gauche
+ ------- Class 3 Count: 36
+ ------- Class 1 Count: 21
+ ------- Class 2 Count: 18
+ ------- Class 0 Count: 7
+ -------
+ ------> Droite
+ ------- Class 1 Count: 12
+ ------- Class 0 Count: 7
+ ------- Class 3 Count: 7
+ ------- Class 2 Count: 1
+ -------
+ -----> Droite
+ ------[Attribute: Attr_C Split value: 1105.7993361849353]
+ ------> Gauche
+ ------- Class 1 Count: 16
+ ------- Class 3 Count: 10
+ ------- Class 2 Count: 1
+ -------
+ ------> Droite
+ ------- Class 1 Count: 9
+ -------
+ ----> Droite
+ -----[Attribute: Attr_H Split value: 9.368951708954395]
+ -----> Gauche
+ ------[Attribute: Attr_A Split value: 9.06505391171154]
+ ------> Gauche
+ ------- Class 2 Count: 17
+ ------- Class 0 Count: 5
+ ------- Class 1 Count: 5
+ -------
+ ------> Droite
+ ------- Class 0 Count: 7
+ ------- Class 2 Count: 2
+ -------
+ -----> Droite
+ ------[Attribute: Attr_C Split value: 818.5873376339497]
+ ------> Gauche
+ ------- Class 2 Count: 6
+ ------- Class 0 Count: 3
+ -------
+ ------> Droite
+ ------- Class 0 Count: 3
+ -------
+ ---> Droite
+ ----[Attribute: Attr_H Split value: 9.745092437433255]
+ ----> Gauche
+ -----[Attribute: Attr_C Split value: 801.3951433995724]
+ -----> Gauche
+ ------[Attribute: Attr_J Split value: 77.87049853082836]
+ ------> Gauche
+ ------- Class 2 Count: 24
+ ------- Class 3 Count: 2
+ ------- Class 0 Count: 2
+ -------
+ ------> Droite
+ ------- Class 2 Count: 8
+ ------- Class 3 Count: 1
+ -------
+ -----> Droite
+ ------[Attribute: Attr_J Split value: 70.39457636678581]
+ ------> Gauche
+ ------- Class 2 Count: 6
+ ------- Class 0 Count: 2
+ ------- Class 3 Count: 1
+ -------
+ ------> Droite
+ ------- Class 2 Count: 3
+ -------
+ ----> Droite
+ -----[Attribute: Attr_A Split value: 7.327045784098789]
+ -----> Gauche
+ ------[Attribute: Attr_J Split value: 80.8370071275003]
+ ------> Gauche
+ ------- Class 2 Count: 5
+ ------- Class 3 Count: 4
+ -------
+ ------> Droite
+ ------- Class 2 Count: 3
+ -------
+ -----> Droite
+ ------[Attribute: Attr_D Split value: 94.2455619210596]
+ ------> Gauche
+ ------- Class 2 Count: 2
+ ------- Class 3 Count: 1
+ -------
+ ------> Droite
+ ------- Class 2 Count: 1
+ -------
+ -> Droite
+ --[Attribute: Attr_J Split value: 85.93980086002992]
+ --> Gauche
+ ---[Attribute: Attr_F Split value: 980.8039040590743]
+ ---> Gauche
+ ----[Attribute: Attr_N Split value: 80.93289228338082]
+ ----> Gauche
+ -----[Attribute: Attr_H Split value: 8.82062674795646]
+ -----> Gauche
+ ------[Attribute: Attr_K Split value: 970.202133320797]
+ ------> Gauche
+ ------- Class 1 Count: 49
+ ------- Class 0 Count: 26
+ ------- Class 3 Count: 4
+ ------- Class 2 Count: 3
+ -------
+ ------> Droite
+ ------- Class 1 Count: 17
+ ------- Class 0 Count: 10
+ -------
+ -----> Droite
+ ------[Attribute: Attr_A Split value: 10.433891077206013]
+ ------> Gauche
+ ------- Class 0 Count: 18
+ ------- Class 1 Count: 6
+ ------- Class 3 Count: 3
+ -------
+ ------> Droite
+ ------- Class 0 Count: 7
+ ------- Class 1 Count: 2
+ -------
+ ----> Droite
+ -----[Attribute: Attr_A Split value: 9.401104285008818]
+ -----> Gauche
+ ------[Attribute: Attr_E Split value: 94.66743574178966]
+ ------> Gauche
+ ------- Class 1 Count: 19
+ ------- Class 2 Count: 5
+ ------- Class 3 Count: 4
+ -------
+ ------> Droite
+ ------- Class 1 Count: 5
+ ------- Class 0 Count: 2
+ ------- Class 3 Count: 1
+ ------- Class 2 Count: 1
+ -------
+ -----> Droite
+ ------[Attribute: Attr_H Split value: 10.260370985822401]
+ ------> Gauche
+ ------- Class 1 Count: 7
+ ------- Class 0 Count: 1
+ ------- Class 2 Count: 1
+ -------
+ ------> Droite
+ ------- Class 1 Count: 3
+ -------
+ ---> Droite
+ ----[Attribute: Attr_A Split value: 9.531779876204636]
+ ----> Gauche
+ -----[Attribute: Attr_N Split value: 77.49157083404145]
+ -----> Gauche
+ ------[Attribute: Attr_C Split value: 1008.1088317914596]
+ ------> Gauche
+ ------- Class 1 Count: 26
+ ------- Class 2 Count: 2
+ -------
+ ------> Droite
+ ------- Class 1 Count: 9
+ -------
+ -----> Droite
+ ------[Attribute: Attr_C Split value: 931.2685624013166]
+ ------> Gauche
+ ------- Class 2 Count: 3
+ ------- Class 1 Count: 3
+ ------- Class 3 Count: 2
+ ------- Class 0 Count: 1
+ -------
+ ------> Droite
+ ------- Class 3 Count: 2
+ ------- Class 2 Count: 1
+ -------
+ ----> Droite
+ -----[Attribute: Attr_C Split value: 1046.9249930248914]
+ -----> Gauche
+ ------[Attribute: Attr_H Split value: 11.39216678203175]
+ ------> Gauche
+ ------- Class 1 Count: 7
+ ------- Class 2 Count: 1
+ ------- Class 0 Count: 1
+ -------
+ ------> Droite
+ ------- Class 1 Count: 2
+ ------- Class 0 Count: 1
+ -------
+ -----> Droite
+ ------[Attribute: Attr_D Split value: 101.20622916740012]
+ ------> Gauche
+ ------- Class 0 Count: 2
+ ------- Class 1 Count: 1
+ -------
+ ------> Droite
+ ------- Class 1 Count: 1
+ -------
+ --> Droite
+ ---[Attribute: Attr_K Split value: 945.1071437337189]
+ ---> Gauche
+ ----[Attribute: Attr_A Split value: 10.178421588188677]
+ ----> Gauche
+ -----[Attribute: Attr_C Split value: 1140.0912644583793]
+ -----> Gauche
+ ------[Attribute: Attr_E Split value: 91.76720592666032]
+ ------> Gauche
+ ------- Class 1 Count: 26
+ ------- Class 3 Count: 1
+ -------
+ ------> Droite
+ ------- Class 1 Count: 9
+ -------
+ -----> Droite
+ ------ Class 1 Count: 12
+ ------
+ ----> Droite
+ -----[Attribute: Attr_C Split value: 1112.0442696764007]
+ -----> Gauche
+ ------[Attribute: Attr_D Split value: 99.21972128139161]
+ ------> Gauche
+ ------- Class 1 Count: 7
+ ------- Class 0 Count: 2
+ -------
+ ------> Droite
+ ------- Class 1 Count: 3
+ -------
+ -----> Droite
+ ------ Class 1 Count: 4
+ ------
+ ---> Droite
+ ----[Attribute: Attr_G Split value: 8.797966541660177]
+ ----> Gauche
+ -----[Attribute: Attr_C Split value: 1039.0060989463068]
+ -----> Gauche
+ ------[Attribute: Attr_F Split value: 919.354691894832]
+ ------> Gauche
+ ------- Class 1 Count: 8
+ ------- Class 2 Count: 1
+ -------
+ ------> Droite
+ ------- Class 1 Count: 2
+ ------- Class 3 Count: 1
+ -------
+ -----> Droite
+ ------ Class 1 Count: 4
+ ------
+ ----> Droite
+ ----- Class 1 Count: 6
+ -----
+ > Droite
+ -[Attribute: Attr_E Split value: 74.60045393416105]
+ -> Gauche
+ --[Attribute: Attr_A Split value: 9.48774256674258]
+ --> Gauche
+ ---[Attribute: Attr_H Split value: 7.390185185486807]
+ ---> Gauche
+ ----[Attribute: Attr_I Split value: 9.3242297799192]
+ ----> Gauche
+ -----[Attribute: Attr_C Split value: 1035.7527044770516]
+ -----> Gauche
+ ------[Attribute: Attr_N Split value: 79.29830816283985]
+ ------> Gauche
+ ------- Class 1 Count: 75
+ ------- Class 0 Count: 3
+ ------- Class 3 Count: 2
+ ------- Class 2 Count: 2
+ -------
+ ------> Droite
+ ------- Class 1 Count: 18
+ ------- Class 2 Count: 5
+ ------- Class 3 Count: 4
+ -------
+ -----> Droite
+ ------[Attribute: Attr_J Split value: 115.17356348811403]
+ ------> Gauche
+ ------- Class 1 Count: 24
+ ------- Class 0 Count: 2
+ ------- Class 2 Count: 1
+ -------
+ ------> Droite
+ ------- Class 1 Count: 9
+ -------
+ ----> Droite
+ -----[Attribute: Attr_M Split value: 927.4652870793554]
+ -----> Gauche
+ ------[Attribute: Attr_D Split value: 93.17531230982888]
+ ------> Gauche
+ ------- Class 1 Count: 22
+ ------- Class 2 Count: 3
+ ------- Class 0 Count: 3
+ -------
+ ------> Droite
+ ------- Class 1 Count: 7
+ ------- Class 2 Count: 1
+ ------- Class 0 Count: 1
+ -------
+ -----> Droite
+ ------ Class 1 Count: 12
+ ------
+ ---> Droite
+ ----[Attribute: Attr_N Split value: 92.66911975091853]
+ ----> Gauche
+ -----[Attribute: Attr_I Split value: 9.129795947512982]
+ -----> Gauche
+ ------[Attribute: Attr_F Split value: 890.1218417343839]
+ ------> Gauche
+ ------- Class 2 Count: 18
+ ------- Class 0 Count: 10
+ -------
+ ------> Droite
+ ------- Class 2 Count: 8
+ ------- Class 0 Count: 1
+ -------
+ -----> Droite
+ ------[Attribute: Attr_J Split value: 89.20132884134625]
+ ------> Gauche
+ ------- Class 2 Count: 8
+ ------- Class 1 Count: 1
+ -------
+ ------> Droite
+ ------- Class 2 Count: 3
+ -------
+ ----> Droite
+ -----[Attribute: Attr_C Split value: 884.2193370767111]
+ -----> Gauche
+ ------[Attribute: Attr_G Split value: 9.222266102211918]
+ ------> Gauche
+ ------- Class 2 Count: 8
+ ------- Class 3 Count: 1
+ -------
+ ------> Droite
+ ------- Class 2 Count: 3
+ -------
+ -----> Droite
+ ------ Class 2 Count: 4
+ ------
+ --> Droite
+ ---[Attribute: Attr_I Split value: 8.529955791873537]
+ ---> Gauche
+ ----[Attribute: Attr_N Split value: 80.69625344605744]
+ ----> Gauche
+ -----[Attribute: Attr_C Split value: 1027.9864585068096]
+ -----> Gauche
+ ------[Attribute: Attr_F Split value: 981.340985002563]
+ ------> Gauche
+ ------- Class 1 Count: 21
+ ------- Class 0 Count: 4
+ ------- Class 3 Count: 2
+ -------
+ ------> Droite
+ ------- Class 1 Count: 9
+ -------
+ -----> Droite
+ ------ Class 1 Count: 12
+ ------
+ ----> Droite
+ -----[Attribute: Attr_C Split value: 955.964025924254]
+ -----> Gauche
+ ------[Attribute: Attr_G Split value: 8.7293289267419]
+ ------> Gauche
+ ------- Class 1 Count: 8
+ ------- Class 3 Count: 1
+ -------
+ ------> Droite
+ ------- Class 1 Count: 3
+ -------
+ -----> Droite
+ ------ Class 1 Count: 4
+ ------
+ ---> Droite
+ ---- Class 1 Count: 22
+ ----
+ -> Droite
+ --[Attribute: Attr_H Split value: 9.38841061172231]
+ --> Gauche
+ ---[Attribute: Attr_N Split value: 84.46803252120674]
+ ---> Gauche
+ ----[Attribute: Attr_I Split value: 9.525559726669197]
+ ----> Gauche
+ -----[Attribute: Attr_M Split value: 927.3754398607571]
+ -----> Gauche
+ ------[Attribute: Attr_K Split value: 913.7557358963077]
+ ------> Gauche
+ ------- Class 2 Count: 15
+ ------- Class 1 Count: 9
+ ------- Class 0 Count: 2
+ ------- Class 3 Count: 1
+ -------
+ ------> Droite
+ ------- Class 1 Count: 5
+ ------- Class 2 Count: 3
+ ------- Class 0 Count: 1
+ -------
+ -----> Droite
+ ------[Attribute: Attr_C Split value: 907.7472115365712]
+ ------> Gauche
+ ------- Class 2 Count: 6
+ ------- Class 1 Count: 2
+ ------- Class 0 Count: 1
+ -------
+ ------> Droite
+ ------- Class 2 Count: 3
+ -------
+ ----> Droite
+ -----[Attribute: Attr_A Split value: 8.308873852112546]
+ -----> Gauche
+ ------[Attribute: Attr_K Split value: 919.6188998361758]
+ ------> Gauche
+ ------- Class 2 Count: 6
+ ------- Class 1 Count: 3
+ -------
+ ------> Droite
+ ------- Class 2 Count: 3
+ -------
+ -----> Droite
+ ------ Class 2 Count: 4
+ ------
+ ---> Droite
+ ----[Attribute: Attr_J Split value: 70.35738586100429]
+ ----> Gauche
+ -----[Attribute: Attr_A Split value: 8.240803991572458]
+ -----> Gauche
+ ------ Class 2 Count: 12
+ ------
+ -----> Droite
+ ------[Attribute: Attr_D Split value: 101.73048838996394]
+ ------> Gauche
+ ------- Class 2 Count: 2
+ ------- Class 3 Count: 1
+ -------
+ ------> Droite
+ ------- Class 2 Count: 1
+ -------
+ ----> Droite
+ -----[Attribute: Attr_A Split value: 8.345283956315809]
+ -----> Gauche
+ ------[Attribute: Attr_D Split value: 96.1264921392332]
+ ------> Gauche
+ ------- Class 1 Count: 1
+ ------- Class 3 Count: 1
+ ------- Class 2 Count: 1
+ -------
+ ------> Droite
+ ------- Class 2 Count: 1
+ -------
+ -----> Droite
+ ------[Attribute: Attr_C Split value: 866.1872105525068]
+ ------> Gauche
+ ------- Class 2 Count: 1
+ -------
+ ------> Droite
+ ------- Class 1 Count: 1
+ -------
+ --> Droite
+ ---[Attribute: Attr_N Split value: 90.64614347185444]
+ ---> Gauche
+ ----[Attribute: Attr_G Split value: 9.298322685880484]
+ ----> Gauche
+ -----[Attribute: Attr_C Split value: 741.7086113098526]
+ -----> Gauche
+ ------[Attribute: Attr_I Split value: 7.9512721702372]
+ ------> Gauche
+ ------- Class 2 Count: 8
+ ------- Class 0 Count: 1
+ -------
+ ------> Droite
+ ------- Class 2 Count: 3
+ -------
+ -----> Droite
+ ------[Attribute: Attr_A Split value: 7.499013809519705]
+ ------> Gauche
+ ------- Class 0 Count: 2
+ ------- Class 2 Count: 1
+ -------
+ ------> Droite
+ ------- Class 0 Count: 1
+ -------
+ ----> Droite
+ ----- Class 2 Count: 6
+ -----
+ ---> Droite
+ ----[Attribute: Attr_C Split value: 903.514603647554]
+ ----> Gauche
+ -----[Attribute: Attr_D Split value: 105.2317276498915]
+ -----> Gauche
+ ------[Attribute: Attr_F Split value: 970.2414748793606]
+ ------> Gauche
+ ------- Class 2 Count: 2
+ ------- Class 3 Count: 1
+ -------
+ ------> Droite
+ ------- Class 2 Count: 1
+ -------
+ -----> Droite
+ ------ Class 2 Count: 1
+ ------
+ ----> Droite
+ ----- Class 2 Count: 2
+ -----
